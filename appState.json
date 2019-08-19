@@ -1,0 +1,85 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "9f491eb4-a447-4f48-87df-5645b4706e87": {
+        "id": "9f491eb4-a447-4f48-87df-5645b4706e87",
+        "parent": null,
+        "name": "varissue",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "04f05234-6968-44c3-a227-f8c45f86f341"
+        ],
+        "isRemovable": false,
+        "filePath": "varissue"
+      },
+      "04f05234-6968-44c3-a227-f8c45f86f341": {
+        "id": "04f05234-6968-44c3-a227-f8c45f86f341",
+        "parent": "9f491eb4-a447-4f48-87df-5645b4706e87",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "varissue/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "9f491eb4-a447-4f48-87df-5645b4706e87",
+    "openFiles": [
+      "04f05234-6968-44c3-a227-f8c45f86f341"
+    ],
+    "currentFileId": "04f05234-6968-44c3-a227-f8c45f86f341",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "test",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "varissue",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1566201834514
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "varissue",
+      "url": "https://github.com/Kumudikatest/varissue"
+    }
+  }
+}
